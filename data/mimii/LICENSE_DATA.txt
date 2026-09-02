@@ -1,0 +1,35 @@
+MIMII DERIVED DATA LICENSE AND ATTRIBUTION
+
+These audio files are a derived subset of:
+
+MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine
+Investigation and Inspection, public 1.0.
+
+Original authors:
+Harsh Purohit, Ryo Tanabe, Kenji Ichige, Takashi Endo, Yuki Nikaido,
+Kaori Suefusa, and Yohei Kawaguchi (Hitachi, Ltd.).
+
+Original dataset record:
+https://zenodo.org/records/3384388
+DOI: https://doi.org/10.5281/zenodo.3384388
+
+The original Zenodo record states that MIMII public 1.0 is distributed under
+the Creative Commons Attribution-ShareAlike 4.0 International license
+(CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes made for this teaching subset:
+- selected a deterministic subset of 0 dB recordings;
+- retained microphone Channel 1 only (source channel index 0);
+- converted 8-channel WAV files to mono 16-bit PCM WAV files without amplitude
+  normalization, cropping, slicing, resampling, or compression;
+- reorganized files and added course metadata; and
+- normalized the source condition label "abnormal" to "anomaly".
+
+This derived subset remains subject to CC BY-SA 4.0. When sharing or adapting
+it, provide appropriate attribution, indicate changes, link to the license,
+and distribute adaptations under the same or a compatible license as required
+by CC BY-SA 4.0.
+
+This notice applies to the derived MIMII data in this directory. It does not
+change the repository's software license.

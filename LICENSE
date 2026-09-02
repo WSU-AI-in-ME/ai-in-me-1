@@ -1,3 +1,17 @@
+Repository License Scope
+
+Unless a file or directory states otherwise, the original source code and
+original instructional documentation in this repository are provided under
+the MIT License reproduced below.
+
+Third-party datasets, publications, images, trademarks, logos, and other
+third-party materials retain their respective copyrights and licenses. Their
+presence in this repository does not grant permission to use or redistribute
+them under the MIT License. Dataset-specific provenance, license, and
+redistribution information is provided in the applicable data card. When no
+dataset license or permission is documented, no redistribution right should be
+inferred from this repository license.
+
 MIT License
 
 Copyright (c) 2026 WSU-AI-in-ME

@@ -1,0 +1,35 @@
+# Labs
+
+Labs combine guided examples with clearly marked required checkpoints. Canvas
+and the course syllabus are authoritative for grading, deadlines, and policies.
+
+Use the [Lab Index](../Lab_index.ipynb) to open the current student notebooks.
+
+## Week 1
+
+- [Lab 0 (Guided Example): Google Colab and Python Quick Start](week01/lab00_colab_and_python_quick_start.ipynb)
+- [Lab 1: Python Basics and Visualization for Manufacturing Data](week01/lab01_python_basics_and_visualization.ipynb)
+
+## Week 2
+
+- [Lab 2: Scientific Computing with Manufacturing Data](week02/lab02_scientific_computing_with_manufacturing_data.ipynb)
+
+## Submission Guidelines
+
+Unless the individual lab or Canvas states otherwise:
+
+1. Save a personal copy of the lab notebook before editing it.
+2. Complete every required checkpoint and written response. Guided examples
+   and optional challenges are not substitutes for required work.
+3. Add concise comments to code you write. Comments should explain purpose,
+   reasoning, assumptions, or units rather than repeat obvious syntax.
+4. Confirm that figure axes include physical quantities and units.
+5. Restart the runtime or kernel and run the notebook from top to bottom.
+6. Resolve all errors and verify that required outputs and figures are visible.
+7. Download the completed `.ipynb` file and export or print the completed
+   notebook as a PDF.
+8. Submit both files through Canvas using the filename and deadline specified
+   in the notebook or Canvas assignment.
+
+A separate lab report is not required unless Canvas explicitly requests one.
+Do not submit coursework through GitHub.
