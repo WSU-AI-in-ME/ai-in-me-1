@@ -18,15 +18,18 @@ Always check the individual homework notebook and Canvas assignment first.
 Unless those instructions state otherwise:
 
 1. Save a personal copy using `HW##_Firstname_Lastname.ipynb`, replacing `##`
-   with the two-digit homework number, unless the assignment states otherwise.
-2. Complete every numbered task and all `TODO` items.
-3. Add concise comments to code you write, especially where a calculation,
+   with the two-digit homework number (for example, `HW01_Jane_Smith.ipynb`),
+   unless the assignment states otherwise.
+2. Enter your name and WSU AccessID in the dedicated **Student Information**
+   Markdown cell.
+3. Complete every numbered task and all `TODO` items.
+4. Add concise comments to code you write, especially where a calculation,
    assumption, threshold, unit conversion, or engineering decision may not be
    immediately clear.
-4. Write requested explanations in Markdown cells, not Python comments.
-5. Restart the runtime or kernel and run the notebook from top to bottom.
-6. Resolve all errors and keep required code outputs and figures visible.
-7. Export the PDF as `HW##_Firstname_Lastname.pdf` and submit both files
+5. Write requested explanations in Markdown cells, not Python comments.
+6. Restart the runtime or kernel and run the notebook from top to bottom.
+7. Resolve all errors and keep required code outputs and figures visible.
+8. Export the PDF as `HW##_Firstname_Lastname.pdf` and submit both files
    through Canvas.
 
 Do not submit homework through GitHub. Do not include instructor solutions or

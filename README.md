@@ -19,7 +19,7 @@ submissions.
 
 | Folder or file | Purpose |
 |---|---|
-| `labs/` | Guided tutorials and required assessed work |
+| `labs/` | Guided activities, ungraded submission practice, and assessed work |
 | `practice/` | Optional, ungraded examples and exercises |
 | `homework/` | Student-facing homework starter notebooks |
 | `data/` | Curated data files, dataset documentation, and provenance notes |
@@ -30,6 +30,8 @@ course syllabus are not distributed in this repository.
 
 ## Notebook and Code Expectations
 
+- Enter your name and WSU AccessID in the dedicated **Student Information**
+  Markdown cell of each submitted notebook.
 - Complete only the student work marked with `TODO` or otherwise identified in
   the notebook instructions.
 - Use concise Python comments to explain the purpose of a step, an engineering
@@ -37,7 +39,7 @@ course syllabus are not distributed in this repository.
   code itself.
 - Keep physical quantities and units clear in variable names, printed output,
   and figure labels.
-- Before submitting assessed work, restart the runtime and run the notebook
+- Before submitting a Lab or Homework, restart the runtime and run the notebook
   from top to bottom. Resolve errors and keep required outputs visible.
 
 ## Data and License
