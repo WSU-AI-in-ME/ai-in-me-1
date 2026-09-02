@@ -18,7 +18,9 @@ Use the [Lab Index](../Lab_index.ipynb) to open the current student notebooks.
 
 Unless the individual lab or Canvas states otherwise:
 
-1. Save a personal copy of the lab notebook before editing it.
+1. Save a personal copy before editing and name it
+   `Lab##_Firstname_Lastname.ipynb`, replacing `##` with the two-digit lab
+   number (for example, `Lab01_Smith_Jane.ipynb`).
 2. Complete every required checkpoint and written response. Guided examples
    and optional challenges are not substitutes for required work.
 3. Add concise comments to code you write. Comments should explain purpose,
@@ -27,7 +29,7 @@ Unless the individual lab or Canvas states otherwise:
 5. Restart the runtime or kernel and run the notebook from top to bottom.
 6. Resolve all errors and verify that required outputs and figures are visible.
 7. Download the completed `.ipynb` file and export or print the completed
-   notebook as a PDF.
+   notebook as `Lab##_Firstname_Lastname.pdf`.
 8. Submit both files through Canvas using the filename and deadline specified
    in the notebook or Canvas assignment.
 

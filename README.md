@@ -13,16 +13,7 @@ submissions.
 - [Lab Index](Lab_index.ipynb) — guided instruction and assessed checkpoints
 - [Practice Index](Practice_index.ipynb) — optional, ungraded self-study
 - [Homework Index](Homework_index.ipynb) — graded assignment starter notebooks
-- [Data](data/) — curated course datasets and documentation
-
-## Course Workflow
-
-- **Week 1:** Open notebooks in Google Colab and save a personal copy.
-- **Week 2 onward:** Follow the course instructions for the local Python and
-  Git workflow when required.
-- **Submission:** Submit student work through Canvas, not GitHub.
-- **Official requirements:** Always follow the assignment page and rubric in
-  Canvas when they differ from a repository summary.
+- [Dataset Catalog](data/README.md) — curated course datasets and documentation
 
 ## Repository Guide
 
@@ -31,8 +22,8 @@ submissions.
 | `labs/` | Guided tutorials and required assessed work |
 | `practice/` | Optional, ungraded examples and exercises |
 | `homework/` | Student-facing homework starter notebooks |
-| `data/` | Curated data files, data cards, and provenance notes |
-| `img/` | Shared course branding assets |
+| `data/` | Curated data files, dataset documentation, and provenance notes |
+| `img/` | Shared branding and source images used in notebooks and course materials |
 
 Instructor solutions, hidden evaluation materials, lecture sources, and the
 course syllabus are not distributed in this repository.
@@ -52,6 +43,6 @@ course syllabus are not distributed in this repository.
 ## Data and License
 
 See [LICENSE](LICENSE). Third-party datasets and materials retain their own
-rights; consult the applicable data card before redistribution. The PHM 2010
-course subset uses the Kaggle Version 1 `CC0: Public Domain` designation
-documented in its [data card](data/phm2010/DATA_CARD.md).
+rights and license requirements. Consult the [dataset catalog](data/README.md)
+and the documentation in each dataset directory before reuse or
+redistribution.
