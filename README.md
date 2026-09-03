@@ -1,7 +1,7 @@
 # ME 5995 — AI in Mechanical Engineering I
 
 **Fundamentals of Manufacturing Data Science**<br>
-Wayne State University · Department of Mechanical Engineering · Fall 2026
+Wayne State University · Department of Mechanical Engineering
 
 This repository contains the student-facing notebooks, practice materials, and
 curated course data used in ME 5995. Canvas and the course syllabus are the
@@ -14,6 +14,16 @@ submissions.
 - [Practice Index](Practice_index.ipynb) — optional, ungraded self-study
 - [Homework Index](Homework_index.ipynb) — graded assignment starter notebooks
 - [Dataset Catalog](data/README.md) — curated course datasets and documentation
+
+## Using This Repository
+
+Open individual notebooks using the links provided in the indexes and the
+**Open in Colab** buttons. You do not need to clone or download the entire
+repository unless instructed.
+
+A Lab or Homework is officially assigned only when it is announced or linked
+through Canvas. Canvas remains the authoritative source for assignment
+requirements, deadlines, grading, submissions, policies, and announcements.
 
 ## Repository Guide
 
