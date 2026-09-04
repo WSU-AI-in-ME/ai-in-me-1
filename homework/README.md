@@ -8,9 +8,12 @@ Use the [Homework Index](../Homework_index.ipynb) to open the current starter
 notebooks. Supplemental files may explain setup, data provenance, or repository
 structure, but they do not replace the official Canvas assignment.
 
+Homework starter notebooks are organized by assignment number rather than by
+course week.
+
 ## Available Homework Starter Notebooks
 
-- [Homework 1 — Python Basics and Basic Visualization](week01/hw01_python_basics_and_visualization.ipynb)
+- [Homework 1 — Python Basics and Basic Visualization](hw01_python_basics_and_visualization.ipynb)
 
 ## Submission Guidelines
 
