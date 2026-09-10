@@ -92,10 +92,17 @@ and output SHA-256 checksums are recorded in `MANIFEST.csv`.
 
 ## Course use and limitations
 
-Lab 2 uses the complete `c1_cut158.csv` record for CSV loading, table
-inspection, time-vector construction, descriptive statistics, RMS calculation,
-plotting, and engineering interpretation. That file contains 219,691 rows,
-seven channels, and no missing values. Its output SHA-256 is:
+Lab 2 uses `c1_wear.csv` to inspect and plot the three original flute-wear
+curves, then compares the complete `c1_cut001.csv` and `c1_cut315.csv` records.
+Force X is the guided example; Vibration X is the required application.
+Students construct each record's own time vector and calculate whole-record
+mean and sample standard deviation (`ddof=1`), using common axes without
+padding or time stretching. These statistics are not cutting-only statistics;
+the records are not aligned to the same cutting phase. Cut 1 is not an
+established unworn or stable-cutting baseline.
+
+The unchanged `c1_cut158.csv` remains available for other demonstrations. It
+contains 219,691 rows, seven channels, and no missing values. Its output SHA-256 is:
 
 ```text
 DB3BC81DA91991AE0A631C7F63E2B89C077B8EBC6A996EDC4BCCDB701EAB639F
