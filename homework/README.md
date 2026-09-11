@@ -1,6 +1,7 @@
 # Homework
 
-This directory contains student-facing homework starter notebooks. Canvas and
+Homework is independent, graded work. This directory contains student-facing
+homework starter notebooks. Canvas and
 the course syllabus are authoritative for requirements, due dates, grading,
 policies, and submissions.
 
@@ -10,6 +11,10 @@ structure, but they do not replace the official Canvas assignment.
 
 Homework starter notebooks are organized by assignment number rather than by
 course week.
+
+Reference Solution PDFs are provided through Canvas after the applicable
+submission deadline, including approved extensions. Executable Homework
+solutions are not published in GitHub.
 
 ## Available Homework Starter Notebooks
 

@@ -11,8 +11,8 @@ submissions.
 ## Start Here
 
 - [Lab Index](Lab_index.ipynb) — guided instruction and assessed checkpoints
-- [Practice Index](Practice_index.ipynb) — optional, ungraded self-study
-- [Homework Index](Homework_index.ipynb) — graded assignment starter notebooks
+- [Practice Index](Practice_index.ipynb) — optional, ungraded self-study with solutions
+- [Homework Index](Homework_index.ipynb) — independent, graded assignments
 - [Dataset Catalog](data/README.md) — curated course datasets and documentation
 
 ## Using This Repository
@@ -38,7 +38,11 @@ requirements, deadlines, grading, submissions, policies, and announcements.
 Practice is normally not submitted. Solutions are available for self-checking;
 try the problems before opening the solution.
 
-Lab and Homework solutions, hidden evaluation materials, lecture sources, and the
+Lab and Homework **Reference Solution** PDFs are provided through Canvas after
+the applicable submission deadline, including approved extensions. Executable
+Lab and Homework solution notebooks are not published here.
+
+Hidden evaluation materials, lecture sources, and the
 course syllabus are not distributed in this repository.
 
 ## Notebook and Code Expectations

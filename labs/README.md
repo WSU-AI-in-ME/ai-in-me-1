@@ -7,6 +7,10 @@ deadlines, and policies.
 
 Use the [Lab Index](../Lab_index.ipynb) to open the current student notebooks.
 
+Reference Solution PDFs are provided through Canvas after the applicable
+submission deadline, including approved extensions. Executable Lab solutions
+are not published in GitHub.
+
 ## Week 1
 
 - [Lab 0 (Ungraded Submission Practice): Google Colab and Python Quick Start](week01/lab00_colab_and_python_quick_start.ipynb)
