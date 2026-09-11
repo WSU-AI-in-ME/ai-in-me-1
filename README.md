@@ -30,12 +30,15 @@ requirements, deadlines, grading, submissions, policies, and announcements.
 | Folder or file | Purpose |
 |---|---|
 | `labs/` | Guided activities, ungraded submission practice, and assessed work |
-| `practice/` | Optional, ungraded examples and exercises |
+| `practice/` | Optional, ungraded examples, exercises, and self-check solutions |
 | `homework/` | Student-facing homework starter notebooks |
 | `data/` | Curated data files, dataset documentation, and provenance notes |
 | `img/` | Shared branding and source images used in notebooks and course materials |
 
-Instructor solutions, hidden evaluation materials, lecture sources, and the
+Practice is normally not submitted. Solutions are available for self-checking;
+try the problems before opening the solution.
+
+Lab and Homework solutions, hidden evaluation materials, lecture sources, and the
 course syllabus are not distributed in this repository.
 
 ## Notebook and Code Expectations
