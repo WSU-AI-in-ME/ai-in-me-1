@@ -1,9 +1,19 @@
-# PHM Data Challenge 2010: C1 Selected Cuts
+# PHM Data Challenge 2010: course data
 
-This directory contains a compact, course-curated subset of the 2010 PHM
-Society Conference Data Challenge for ME 5995. It includes three complete
-machining records from cutter `c1` and the complete `c1` wear table. It is not
-the original benchmark dataset or a predefined machine-learning split.
+ME 5995 uses two complementary layers of PHM course data:
+
+| Layer | Included material | Use |
+|---|---|---|
+| [Selected raw records](c1_selected_cuts/) | Three complete c1 signal records and 315-row c1 wear table | Waveforms, time-domain features, FFT, STFT and introductory signal analysis |
+| [Derived features](features/README.md) | [945-row, 56-column table](features/phm2010_features.csv), c1/c4/c6, 315 cuts each | Feature exploration, correlation, regression, wear-level classification, validation/generalization, trees/ensembles and PCA |
+
+Each derived row is one cut, computed deterministically from its full recorded
+signal. The full raw c1/c4/c6 corpus is not included. These course datasets are
+not the original challenge benchmark or a predefined ML split.
+
+The sections below describe the selected raw subset. For all 42 derived sensor
+features, target definitions and the 11 default predictors, see the
+[feature README](features/README.md) and [dictionary](features/DATA_DICTIONARY.md).
 
 ## Files
 
@@ -36,9 +46,20 @@ local `c1.zip` archive had SHA-256:
 542B0D3EC78B322FEEC3C74B701143F730E9BBFDD00BB24B10CC8817CA1198C9
 ```
 
-The course relies on the Kaggle Version 1 CC0 designation for redistribution
-of this subset. The repository MIT license applies to course-authored code and
-documentation, not as a replacement for the data-source license.
+The official PHM Society challenge page does not provide an explicit
+dataset-specific license statement in the source documentation reviewed for this
+release. The [third-party Kaggle mirror](https://www.kaggle.com/datasets/rabahba/phm-data-challenge-2010)
+labels its hosted copy **CC0: Public Domain**. This is mirror metadata, not an
+official PHM Society license declaration or proof of rights for every source copy.
+The repository's [MIT license](../../LICENSE) covers original course code and
+documentation; it does not override third-party dataset rights or relicense the
+underlying PHM data. No redistribution permission should be inferred from that
+repository license.
+
+This course feature table is a derived instructional dataset computed from the
+PHM Society 2010 Data Challenge records. Original data provenance remains with
+the PHM Society Data Challenge source. The course repository does not claim
+ownership of the underlying PHM source data.
 
 ## Signal data
 
@@ -129,5 +150,5 @@ a course-curated subset:
 > PHM Society, “2010 PHM Society Conference Data Challenge,” 2010.
 > <https://phmsociety.org/phm_competition/2010-phm-society-conference-data-challenge/>
 
-> rabah ba, “PHM data challenge 2010,” Kaggle, Version 1, CC0: Public Domain.
+> rabah ba, “PHM data challenge 2010,” Kaggle, Version 1 (mirror metadata: CC0: Public Domain; not an official PHM license statement).
 > <https://www.kaggle.com/datasets/rabahba/phm-data-challenge-2010>
