@@ -1,9 +1,12 @@
-# MIMII Compact Teaching Subset
+# MIMII Course Teaching Subset
 
 This directory contains a derived teaching subset of **MIMII public 1.0:
 Sound Dataset for Malfunctioning Industrial Machine Investigation and
 Inspection**. It is intended for ME 5995 course activities and is not an
 official MIMII benchmark split.
+
+The subset contains **220 unique WAV files**. Use [metadata.csv](metadata.csv)
+to select task memberships; shared recordings are stored only once.
 
 ## Original Sources
 
@@ -43,25 +46,26 @@ and a SHA-256 checksum for every physical WAV file.
 
 ## Selection Rule
 
-Selection is deterministic with random seed `42`. Candidate paths are sorted,
-then one seeded Python random generator is used in this fixed order:
+Selection is deterministic and course-specific. The expansion preserves all
+145 previously selected recordings and adds 75 normal recordings. It retains
+all original IDs, WAV bytes, source mappings and existing task memberships.
 
-1. Machine types: `fan`, `pump`, `slider`, `valve`
-2. Machine IDs within each type: `id_00`, `id_02`, `id_04`, `id_06`
-3. Five normal files per machine-type and machine-ID group
-4. Forty-five additional normal fan `id_06` files
-5. Twenty anomalous fan `id_06` files
-
-The exact selected source files are recorded in `metadata.csv`.
+For the additions, an independent Python random generator with seed `42` visits
+`fan`, `pump`, `slider`, `valve`, and then `id_00`, `id_02`, `id_04`, `id_06`
+within each type. It samples five sorted eligible normal source paths per group,
+without replacement. Previously selected files are excluded, except for fan
+`id_06`: five additional classification recordings are reused from its existing
+anomaly-normal pool. Selection does not depend on waveform appearance, features
+or model performance. Exact source selections are recorded in `metadata.csv`.
 
 ## Classification Teaching Task
 
 The course-specific classification subset contains only normal recordings:
 
-- 4 machine types
-- 4 machine IDs per type
-- 5 recordings per machine type and ID
-- 80 recordings total
+- Machine types: `fan`, `pump`, `slider`, `valve`
+- IDs for each type: `id_00`, `id_02`, `id_04`, `id_06`
+- 10 normal recordings per machine-type × machine-ID group
+- 160 classification memberships
 
 Machine-type classification is a course-derived task, not the original MIMII
 benchmark definition.
@@ -74,9 +78,16 @@ The anomaly-detection subset uses only fan `id_06`:
 - 20 anomaly recordings
 - 70 recordings total
 
-Five normal fan `id_06` files are shared with the classification task. They
+Ten normal fan `id_06` files are shared with the classification task. They
 have both task-inclusion flags in `metadata.csv` and are physically stored only
 once.
+
+The two tasks share 10 recordings, so `160 + 70 - 10 = 220` physical WAV files.
+
+Task definitions are adapted for instruction. Machine-type classification and
+any supervised normal/anomaly exercise are not the original MIMII benchmark
+protocol. The original benchmark focuses on anomalous sound detection, commonly
+using normal-only training data.
 
 Anomaly labels are file-level labels. A short window from an anomalous
 recording is not guaranteed to contain an obvious anomaly.
@@ -87,16 +98,12 @@ No train, validation, or test split is predefined. Split the original
 10-second recordings **before** creating shorter windows. Windows with the same
 `recording_id` must never cross train, validation, and test sets.
 
-Suggested deterministic course splits using `random_state=42`:
-
-- Classification: within each machine-type and machine-ID group, use 3 files
-  for training, 1 for validation, and 1 for testing.
-- Anomaly detection: use 35 normal files for training, 5 normal files for
-  validation, and a test set containing 10 normal and 20 anomaly files.
-
-The anomaly-detection training and validation sets must contain only normal
-recordings. Split logic belongs in the course notebook, not in this prepared
-dataset.
+ML splits are defined in the relevant course activity; this dataset does not
+assign a fixed split. Use the 10-normal-per-group classification pool according
+to that activity's instructions. Fit learned transformations on training data
+only. Use machine/model ID separation when evaluating unseen-ID generalization.
+For normal-only anomaly-detection activities, keep anomalous recordings out of
+training. Do not infer a benchmark protocol from these task membership flags.
 
 ## Limitations
 
@@ -111,6 +118,7 @@ Suefusa, and Yohei Kawaguchi, “MIMII Dataset: Sound Dataset for Malfunctioning
 Industrial Machine Investigation and Inspection,” arXiv:1909.09347, 2019.
 
 The original dataset was created by the listed authors at Hitachi, Ltd. and is
-available from Zenodo under CC BY-SA 4.0. See `LICENSE_DATA.txt` for the data
-license notice. The repository software license does not replace the dataset
-license.
+available from Zenodo under CC BY-SA 4.0. See [LICENSE_DATA.txt](LICENSE_DATA.txt) for the data
+license notice. The repository [software license](../../LICENSE) does not override third-party
+dataset rights. This derived audio subset remains governed by CC BY-SA 4.0;
+preserve attribution, indicate changes and follow its ShareAlike requirements.
