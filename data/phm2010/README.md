@@ -152,3 +152,17 @@ a course-curated subset:
 
 > rabah ba, “PHM data challenge 2010,” Kaggle, Version 1 (mirror metadata: CC0: Public Domain; not an official PHM license statement).
 > <https://www.kaggle.com/datasets/rabahba/phm-data-challenge-2010>
+
+## Reproducible processing
+
+The [feature-generation code](../../scripts/data_curation/phm2010/README.md) reproduces the table from separately
+obtained PHM source records under applicable terms. The full raw corpus is not
+included. This feature table contains scalar features and wear labels/targets
+derived from the PHM 2010 challenge records, not the complete raw c1/c4/c6 signals.
+
+Users should consult the original source and applicable terms when obtaining or
+redistributing the underlying raw data.
+
+These wear levels are course-defined instructional categories and are not
+official PHM Society benchmark classes or universal industrial wear-severity
+limits.
