@@ -20,6 +20,10 @@ are not published in GitHub.
 
 - [Lab 2: Scientific Computing with Manufacturing Data](week02/lab02_scientific_computing_with_manufacturing_data.ipynb)
 
+## Week 3
+
+- [Lab 3: Manufacturing Signals and Feature Engineering](week03/lab03_manufacturing_signals_and_feature_engineering.ipynb)
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:

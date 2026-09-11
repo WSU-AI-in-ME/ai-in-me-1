@@ -33,6 +33,7 @@ requirements, deadlines, grading, submissions, policies, and announcements.
 | `practice/` | Optional, ungraded examples, exercises, and self-check solutions |
 | `homework/` | Student-facing homework starter notebooks |
 | `data/` | Curated data files, dataset documentation, and provenance notes |
+| `image/` | Conceptual visuals referenced by notebooks through raw GitHub URLs |
 | `img/` | Shared branding and source images used in notebooks and course materials |
 
 Practice is normally not submitted. Solutions are available for self-checking;
