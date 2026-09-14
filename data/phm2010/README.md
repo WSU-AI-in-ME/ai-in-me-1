@@ -155,9 +155,10 @@ a course-curated subset:
 
 ## Reproducible processing
 
-The [feature-generation code](../../scripts/data_curation/phm2010/README.md) reproduces the table from separately
-obtained PHM source records under applicable terms. The full raw corpus is not
-included. This feature table contains scalar features and wear labels/targets
+The scalar feature definitions and transformations are documented in the
+[feature dictionary](features/DATA_DICTIONARY.md). Students use the supplied
+feature table; running the instructor's private curation utility is not required.
+The full raw corpus is not included. This feature table contains scalar features and wear labels/targets
 derived from the PHM 2010 challenge records, not the complete raw c1/c4/c6 signals.
 
 Users should consult the original source and applicable terms when obtaining or
