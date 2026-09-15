@@ -43,3 +43,16 @@ on GitHub with copyable commands and screenshots.
   90–150 minutes; no data download is needed.
 
   [Practice 2 Solution](week02/practice02_scientific_computing_solution.ipynb) — one possible approach, for self-checking after your attempt.
+
+## Week 3 — Manufacturing Signals and Feature Engineering
+
+- **[Practice 3 — Manufacturing Signals and Feature Engineering](week03/practice03_manufacturing_signals_and_feature_engineering.ipynb)**
+
+  25 exercises in five independent modules: sampling/physical time, scalar
+  features, FFT, FFT versus STFT, and feature relevance/redundancy. Choose Short
+  (10 exercises, 50–65 min), Standard (15, 80–100 min), Full (25, 120–160 min),
+  or Debugging (5, 35–50 min). These are estimates; completing every exercise
+  is not expected. Synthetic examples need no data download. Optional PHM
+  transfer T1 is separate and disabled by default.
+
+  [Practice 3 Solution](week03/practice03_manufacturing_signals_and_feature_engineering_solution.ipynb) — one possible approach, for self-checking after your attempt.
