@@ -1,6 +1,6 @@
 # Windows Setup Guide
 
-**ME 5995 — Local Python Development and Git/GitHub**<br>
+### ME 5995 — Local Python Development and Git/GitHub
 Wayne State University<br>
 **Optional, ungraded self-study**
 

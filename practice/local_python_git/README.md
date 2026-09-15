@@ -1,6 +1,6 @@
 # Local Python Development and Git/GitHub
 
-**ME 5995 — Fundamentals of Manufacturing Data Science**<br>
+### ME 5995 — Fundamentals of Manufacturing Data Science
 Wayne State University
 
 Optional, ungraded self-study. Follow the supplied steps at your own pace;
