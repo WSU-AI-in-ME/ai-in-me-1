@@ -5,13 +5,35 @@ Solutions are available for self-checking. Try the problems before opening
 the solution.
 
 Use the [Practice Index](../Practice_index.ipynb) to open the available
-notebooks.
+notebooks and local development guides.
 
-## Available Practice Notebooks
+## Local Python Development and Git/GitHub
+
+Optional, ungraded Windows walkthroughs, independent of the weekly practice.
+**These guides are not prerequisites for the weekly Practice notebooks below.**
+All code is provided; no submission is required. The guides are Markdown pages
+on GitHub with copyable commands and screenshots.
+
+| Start here | Purpose |
+|---|---|
+| [Windows Setup](local_python_git/windows_setup.md) | Install and check Python, Git, and VS Code. |
+| [Practice A](local_python_git/practice_a.md) | Create a project and save it to your own GitHub repository. |
+| [Practice B](local_python_git/practice_b.md) | Download and run the provided course project. |
+| [Command Reference](local_python_git/quick_reference.md) | Look up commands used in the guides. |
+| [Before Leaving](local_python_git/before_leaving.md) | Save results and sign out on a shared PC. |
+| [Optional venv Reference](local_python_git/optional_venv.md) | Learn about separate project environments. |
+
+[Overview and navigation](local_python_git/README.md)
+
+---
+
+## Week 1 — Course Introduction and Python Basics
 
 - **[Practice 1 — Python Fundamentals for Engineering](week01/practice01_python_fundamentals.ipynb)**
 
   [Practice 1 Solution](week01/practice01_python_fundamentals_solution.ipynb) — for self-checking after your attempt.
+
+## Week 2 — Scientific Computing Fundamentals
 
 - **[Practice 2 — Scientific Computing Fundamentals](week02/practice02_scientific_computing.ipynb)**
 
