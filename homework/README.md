@@ -20,6 +20,8 @@ solutions are not published in GitHub.
 
 - [Homework 1 — Python Basics and Basic Visualization](hw01_python_basics_and_visualization.ipynb)
 
+- [Homework 2 — Scientific Computing, Manufacturing Signals, and Feature Engineering](hw02_scientific_computing_manufacturing_signals_and_feature_engineering.ipynb)
+
 ## Submission Guidelines
 
 Always check the individual homework notebook and Canvas assignment first.
