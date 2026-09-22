@@ -15,6 +15,8 @@ submissions.
 - [Homework Index](Homework_index.ipynb) — independent, graded assignments
 - [Dataset Catalog](data/README.md) — curated course datasets and documentation
 
+- [Practice 4: Regression experiments](practice/week04/practice04_regression_experiments.ipynb) — optional model comparisons; [self-check solution](practice/week04/practice04_regression_experiments_solution.ipynb) after your attempt
+
 ## Using This Repository
 
 Open individual notebooks using the links provided in the indexes and the
