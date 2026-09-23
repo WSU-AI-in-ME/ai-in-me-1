@@ -24,6 +24,10 @@ are not published in GitHub.
 
 - [Lab 3: Manufacturing Signals and Feature Engineering](week03/lab03_manufacturing_signals_and_feature_engineering.ipynb)
 
+## Week 4
+
+- [Lab 4: Regression for Tool Wear Estimation and Prediction](week04/lab04_tool_wear_regression.ipynb)
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:
