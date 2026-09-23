@@ -39,8 +39,8 @@ and all wear measurements/targets are excluded from predictor inputs.
 
 | `wear_level` | Mean wear (µm) | c1 | c4 | c6 | Total |
 |---|---|---:|---:|---:|---:|
-| 0 | ≤50 | 6 | 11 | 3 | 20 |
-| 1 | >50 and <150 | 280 | 258 | 224 | 762 |
+| 0 | ≤75 | 27 | 75 | 17 | 119 |
+| 1 | >75 and <150 | 259 | 194 | 210 | 663 |
 | 2 | ≥150 | 29 | 46 | 88 | 163 |
 
 These are course-defined instructional categories, **not official PHM benchmark
@@ -53,7 +53,11 @@ to wear by cutter and cut. No inferred active-cut interval, filtering, clipping,
 resampling or sample replacement was applied. Sample SD uses `ddof=1`; RMS
 retains the mean; kurtosis is Pearson with `fisher=False, bias=True`. Equations,
 units, source identifiers and all 56 column roles are in the dictionary.
-Independent full builds reproduced the same table. Each source signal's SHA-256
+Independent full builds reproduced the original table. The lower class boundary
+was revised from 50 to 75 µm on September 22, 2026; 99 labels changed
+from 1 to 0. Sensor features and continuous wear values are unchanged.
+If you saved an earlier copy, download the current CSV before using `wear_level`
+for classification. Each source signal's SHA-256
 is retained; `source_file` is an original archive-relative identifier, not a link
 to a file shipped with this table.
 

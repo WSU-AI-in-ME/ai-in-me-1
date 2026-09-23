@@ -110,7 +110,7 @@ nonzero variance. The supplied table contains no missing or nonfinite values.
 
 | Column | Role | Engineering meaning and definition | Unit | Default predictor |
 |---|---|---|---|---|
-| `wear_level` | categorical_targets | 0: mean<=50 µm; 1: 50<mean<150 µm; 2: mean>=150 µm; instructional only | 1 | No |
+| `wear_level` | categorical_targets | 0: mean<=75 µm; 1: 75<mean<150 µm; 2: mean>=150 µm; instructional only | 1 | No |
 
 Wear levels are instructional categories, not official PHM severity labels.
 The [README](README.md) provides source attribution, rights notes and grouping limitations.
