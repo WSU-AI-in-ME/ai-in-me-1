@@ -28,6 +28,10 @@ are not published in GitHub.
 
 - [Lab 4: Regression for Tool Wear Estimation and Prediction](week04/lab04_tool_wear_regression.ipynb)
 
+## Week 5
+
+- [Lab 5: Tool Wear Classification and Model Performance Evaluation](week05/lab05_tool_wear_classification.ipynb)
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:
