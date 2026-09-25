@@ -56,3 +56,18 @@ on GitHub with copyable commands and screenshots.
   transfer T1 is separate and disabled by default.
 
   [Practice 3 Solution](week03/practice03_manufacturing_signals_and_feature_engineering_solution.ipynb) — one possible approach, for self-checking after your attempt.
+
+## Week 5 — Classification and Model Performance Evaluation
+
+- **[Practice 5 — Classification and Model Performance Evaluation](week05/practice05_classification_experiments.ipynb)**
+
+  Sixteen exercises in five independent modules: metrics, kNN, Gaussian Naive
+  Bayes, PHM classification and optional LDA/QDA. Recommended route:
+  A1 → A2 → B1 → B3 → C2 → D2; run each module setup and the C warm-up before C2.
+  Choose selected activities; completing the full bank is not required.
+
+  [Practice 5 Solution](week05/practice05_classification_experiments_solution.ipynb) — self-check after your attempt.
+
+- Optional [Lab 5 follow-up](week05/practice05_lab_followup.ipynb) and
+  [self-check solution](week05/practice05_lab_followup_solution.ipynb): Logistic
+  threshold 0.25, PHM two-feature SVM boundaries and label regrouping.
