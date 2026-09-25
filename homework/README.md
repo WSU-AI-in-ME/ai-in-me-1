@@ -22,7 +22,10 @@ solutions are not published in GitHub.
 
 - [Homework 2 — Scientific Computing, Manufacturing Signals, and Feature Engineering](hw02_scientific_computing_manufacturing_signals_and_feature_engineering.ipynb)
 
+- [Homework 3: Tool Wear Classification and Feature Choice](hw03_tool_wear_estimation_and_feature_comparison.ipynb)
+
 ## Submission Guidelines
+
 
 Always check the individual homework notebook and Canvas assignment first.
 Unless those instructions state otherwise:
