@@ -32,6 +32,10 @@ are not published in GitHub.
 
 - [Lab 5: Tool Wear Classification and Model Performance Evaluation](week05/lab05_tool_wear_classification.ipynb)
 
+## Week 6
+
+- [Lab 6: Model Validation and Generalization](week06/lab06_model_validation_and_generalization.ipynb)
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:
