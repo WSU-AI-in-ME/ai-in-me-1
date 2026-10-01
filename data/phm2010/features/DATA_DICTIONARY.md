@@ -1,6 +1,7 @@
 # PHM 2010 feature data dictionary
 
-[Feature dataset and default predictors](README.md) · [CSV](phm2010_features.csv)
+- [Feature dataset and default predictors](README.md)
+- [CSV](phm2010_features.csv)
 
 One row is one full recorded cut. There are 56 columns; 42 are sensor-derived
 features. Roles below are disjoint; the approved 11 default predictors are marked

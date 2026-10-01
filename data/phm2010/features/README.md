@@ -1,6 +1,8 @@
 # PHM 2010 derived features
 
-[Download the feature table](phm2010_features.csv) · [Data dictionary](DATA_DICTIONARY.md) · [PHM data overview](../README.md)
+- [Download the feature table](phm2010_features.csv)
+- [Data dictionary](DATA_DICTIONARY.md)
+- [PHM data overview](../README.md)
 
 This compact ME 5995 dataset supports feature exploration, correlation, tool-wear
 regression, wear-level classification, validation/generalization, tree/ensemble
