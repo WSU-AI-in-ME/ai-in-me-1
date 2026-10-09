@@ -24,6 +24,11 @@ solutions are not published in GitHub.
 
 - [Homework 3: Tool Wear Classification and Feature Choice](hw03_tool_wear_estimation_and_feature_comparison.ipynb)
 
+- [Homework 4: Select and Evaluate Tree Models](hw04_tree_and_random_forest_selection.ipynb)
+
+  Controlled tree/Random Forest comparison with c1 fitting, c4 validation
+  selection and c6 evaluation. Use the Canvas deadline and notebook checklist.
+
 ## Submission Guidelines
 
 

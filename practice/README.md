@@ -71,3 +71,13 @@ on GitHub with copyable commands and screenshots.
 - Optional [Lab 5 follow-up](week05/practice05_lab_followup.ipynb) and
   [self-check solution](week05/practice05_lab_followup_solution.ipynb): Logistic
   threshold 0.25, PHM two-feature SVM boundaries and label regrouping.
+
+## Week 7 — Decision Trees and Ensemble Methods
+
+- **[Practice 7 — Decision Trees and Ensemble Experiments](week07/practice07_decision_trees_and_ensembles.ipynb)**
+
+  Six basic activities and a guided importance example prepare you for HW4.
+  Eleven additional examples are optional; stop at the basic-route completion
+  notice or choose topics to explore further. No submission is required.
+
+  [Practice 7 self-check solution](week07/practice07_decision_trees_and_ensembles_solution.ipynb) — attempt the comparisons before reading.
