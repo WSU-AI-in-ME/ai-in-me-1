@@ -1,6 +1,6 @@
 # Local Python Development and Git/GitHub
 
-### ME 5995 — Fundamentals of Manufacturing Data Science
+### ME 5995: Fundamentals of Manufacturing Data Science
 Wayne State University
 
 Optional, ungraded self-study. Follow the supplied steps at your own pace;
@@ -21,8 +21,9 @@ Python 3.13, Git, and VS Code. macOS/Linux setup is not covered.
 If the tools are already installed, you can start with either practice. The
 main workflow uses user-level package installation with pip --user.
 
-Screenshots show the instructor's examples. Use your own account and paths in
-Practice A. The Windows setup checks and classroom A/B walkthroughs have been
-reviewed; computer-specific installation permissions and paths may differ.
+Use your own account and paths in Practice A. Installation permissions and paths
+may differ from the screenshots.
 
-[Practice Index](../../Practice_index.ipynb) · [Course Repository](../../README.md)
+[Practice Index](../../Practice_index.ipynb)
+
+[Course Repository](../../README.md)

@@ -56,11 +56,6 @@ documentation; it does not override third-party dataset rights or relicense the
 underlying PHM data. No redistribution permission should be inferred from that
 repository license.
 
-This course feature table is a derived instructional dataset computed from the
-PHM Society 2010 Data Challenge records. Original data provenance remains with
-the PHM Society Data Challenge source. The course repository does not claim
-ownership of the underlying PHM source data.
-
 ## Signal data
 
 The official challenge documentation specifies seven channels sampled at
@@ -155,15 +150,5 @@ a course-curated subset:
 
 ## Reproducible processing
 
-The scalar feature definitions and transformations are documented in the
-[feature dictionary](features/DATA_DICTIONARY.md). Students use the supplied
-feature table; running the instructor's private curation utility is not required.
-The full raw corpus is not included. This feature table contains scalar features and wear labels/targets
-derived from the PHM 2010 challenge records, not the complete raw c1/c4/c6 signals.
-
-Users should consult the original source and applicable terms when obtaining or
-redistributing the underlying raw data.
-
-These wear levels are course-defined instructional categories and are not
-official PHM Society benchmark classes or universal industrial wear-severity
-limits.
+For derived feature definitions, transformations and target roles, see the
+[feature dictionary](features/DATA_DICTIONARY.md).

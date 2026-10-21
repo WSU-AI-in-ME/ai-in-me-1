@@ -5,9 +5,7 @@ Wayne State University<br>
 Department of Mechanical Engineering
 
 This repository contains the student-facing notebooks, practice materials, and
-curated course data used in ME 5995. Canvas and the course syllabus are the
-authoritative sources for requirements, deadlines, grading, policies, and
-submissions.
+curated course data used in ME 5995.
 
 ## Start Here
 
@@ -22,9 +20,7 @@ Open individual notebooks using the links provided in the indexes and the
 **Open in Colab** buttons. You do not need to clone or download the entire
 repository unless instructed.
 
-A Lab or Homework is officially assigned only when it is announced or linked
-through Canvas. Canvas remains the authoritative source for assignment
-requirements, deadlines, grading, submissions, policies, and announcements.
+Check Canvas for assigned work, deadlines, grading and submission instructions.
 
 ## Repository Guide
 

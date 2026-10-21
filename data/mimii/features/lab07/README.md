@@ -2,8 +2,8 @@
 
 [lab07_features.csv](lab07_features.csv) provides 70 recording-level rows and 16
 fixed log band-power input features for Lab 7. It reuses the existing course fan
-`id_06` anomaly-detection pool: 50 normal and 20 anomaly recordings. No new audio
-was selected. Labels, source paths, checksums and split names are metadata, not
+`id_06` anomaly-detection pool: 50 normal and 20 anomaly recordings.
+Labels, source paths, checksums and split names are metadata, not
 model inputs. No raw-audio download is needed for this Lab.
 
 ## Provenance and feature definition
@@ -49,8 +49,6 @@ in earlier course activities, and the test's 50% anomaly fraction is artificial.
 
 CSV SHA-256:
 `55d899f437884f8964193117c30760717cc0f62bc45ce5b021cf5bf350f63891`.
-The feature values and split reproduce the frozen course feature-extraction
-contract; they are not altered to improve detector results.
 
 The derived CSV is shared under **CC BY-SA 4.0**. Preserve the original authors,
 source, change notice and ShareAlike conditions. See

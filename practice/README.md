@@ -9,10 +9,8 @@ notebooks and local development guides.
 
 ## Local Python Development and Git/GitHub
 
-Optional, ungraded Windows walkthroughs, independent of the weekly practice.
-**These guides are not prerequisites for the weekly Practice notebooks below.**
-All code is provided; no submission is required. The guides are Markdown pages
-on GitHub with copyable commands and screenshots.
+Optional Windows walkthroughs for Python, Git and VS Code. These guides are
+independent of the weekly Practice notebooks and are not prerequisites.
 
 | Start here | Purpose |
 |---|---|
@@ -27,60 +25,54 @@ on GitHub with copyable commands and screenshots.
 
 ---
 
-## Week 1 — Course Introduction and Python Basics
+## Week 1: Course Introduction and Python Basics
 
-- **[Practice 1 — Python Fundamentals for Engineering](week01/practice01_python_fundamentals.ipynb)**
+- **[Practice 1: Python Fundamentals for Engineering](week01/practice01_python_fundamentals.ipynb)**
 
-  [Practice 1 Solution](week01/practice01_python_fundamentals_solution.ipynb) — for self-checking after your attempt.
+  [Practice 1 Solution](week01/practice01_python_fundamentals_solution.ipynb): for self-checking after your attempt.
 
-## Week 2 — Scientific Computing Fundamentals
+## Week 2: Scientific Computing Fundamentals
 
-- **[Practice 2 — Scientific Computing Fundamentals](week02/practice02_scientific_computing.ipynb)**
+- **[Practice 2: Scientific Computing Fundamentals](week02/practice02_scientific_computing.ipynb)**
 
-  30 exercises in six independent modules: arrays, shape/axis, pandas and missing
-  readings, physical time, sample statistics, and plots/interpretation. Choose
-  the 12-exercise short route or deeper/debugging routes. Full-bank estimate:
-  90–150 minutes; no data download is needed.
+  Explore arrays, pandas, statistics and plots in six independent modules.
+  Start with the 12-exercise short route or choose from the 30-exercise bank.
 
-  [Practice 2 Solution](week02/practice02_scientific_computing_solution.ipynb) — one possible approach, for self-checking after your attempt.
+  [Practice 2 Solution](week02/practice02_scientific_computing_solution.ipynb): one possible approach, for self-checking after your attempt.
 
-## Week 3 — Manufacturing Signals and Feature Engineering
+## Week 3: Manufacturing Signals and Feature Engineering
 
-- **[Practice 3 — Manufacturing Signals and Feature Engineering](week03/practice03_manufacturing_signals_and_feature_engineering.ipynb)**
+- **[Practice 3: Manufacturing Signals and Feature Engineering](week03/practice03_manufacturing_signals_and_feature_engineering.ipynb)**
 
-  25 exercises in five independent modules: sampling/physical time, scalar
-  features, FFT, FFT versus STFT, and feature relevance/redundancy. Choose Short
-  (10 exercises, 50–65 min), Standard (15, 80–100 min), Full (25, 120–160 min),
-  or Debugging (5, 35–50 min). These are estimates; completing every exercise
-  is not expected. Synthetic examples need no data download. Optional PHM
-  transfer T1 is separate and disabled by default.
+  Explore sampling, signal features, FFT/STFT and feature selection in five modules.
+  Choose a Short, Standard or Debugging route from the 25-exercise bank.
+  The PHM transfer activity is optional.
 
-  [Practice 3 Solution](week03/practice03_manufacturing_signals_and_feature_engineering_solution.ipynb) — one possible approach, for self-checking after your attempt.
+  [Practice 3 Solution](week03/practice03_manufacturing_signals_and_feature_engineering_solution.ipynb): one possible approach, for self-checking after your attempt.
 
-## Week 5 — Classification and Model Performance Evaluation
+## Week 5: Classification and Model Performance Evaluation
 
-- **[Practice 5 — Classification and Model Performance Evaluation](week05/practice05_classification_experiments.ipynb)**
+- **[Practice 5: Classification and Model Performance Evaluation](week05/practice05_classification_experiments.ipynb)**
 
   Sixteen exercises in five independent modules: metrics, kNN, Gaussian Naive
   Bayes, PHM classification and optional LDA/QDA. Recommended route:
-  A1 → A2 → B1 → B3 → C2 → D2; run each module setup and the C warm-up before C2.
+  A1, A2, B1, B3, C2, D2; run each module setup and the C warm-up before C2.
   Choose selected activities; completing the full bank is not required.
 
-  [Practice 5 Solution](week05/practice05_classification_experiments_solution.ipynb) — self-check after your attempt.
+  [Practice 5 Solution](week05/practice05_classification_experiments_solution.ipynb): self-check after your attempt.
 
 - Optional [Lab 5 follow-up](week05/practice05_lab_followup.ipynb) and
   [self-check solution](week05/practice05_lab_followup_solution.ipynb): Logistic
   threshold 0.25, PHM two-feature SVM boundaries and label regrouping.
 
-## Week 7 — Decision Trees and Ensemble Methods
+## Week 7: Decision Trees and Ensemble Methods
 
-- **[Practice 7 — Decision Trees and Ensemble Experiments](week07/practice07_decision_trees_and_ensembles.ipynb)**
+- **[Practice 7: Decision Trees and Ensemble Experiments](week07/practice07_decision_trees_and_ensembles.ipynb)**
 
-  Six basic activities and a guided importance example prepare you for HW4.
-  Eleven additional examples are optional; stop at the basic-route completion
-  notice or choose topics to explore further. No submission is required.
+  Start with six basic tree/Random Forest activities and guided feature importance.
+  Eleven additional examples are optional.
 
-  [Practice 7 self-check solution](week07/practice07_decision_trees_and_ensembles_solution.ipynb) — attempt the comparisons before reading.
+  [Practice 7 self-check solution](week07/practice07_decision_trees_and_ensembles_solution.ipynb): attempt the comparisons before reading.
 
 ## Week 8: Unsupervised Learning and Anomaly Detection
 
@@ -88,6 +80,6 @@ on GitHub with copyable commands and screenshots.
 
   Ten basic activities explore PCA, K-means and normal-only anomaly detection
   with synthetic data. Four additional experiments are optional; no external
-  files or submission are required.
+  files are required.
 
   [Practice 8 self-check solution](week08/practice08_pca_clustering_and_anomaly_detection_solution.ipynb): attempt the comparisons before reading.

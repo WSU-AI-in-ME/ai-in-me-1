@@ -1,15 +1,9 @@
 # Labs
 
 Lab 0 is a required but ungraded submission practice completed with the
-instructor. Later labs combine guided instruction with clearly marked assessed
-checkpoints. Canvas and the course syllabus are authoritative for grading,
-deadlines, and policies.
+instructor. Later labs combine guided instruction with assessed checkpoints.
 
 Use the [Lab Index](../Lab_index.ipynb) to open the current student notebooks.
-
-Reference Solution PDFs are provided through Canvas after the applicable
-submission deadline, including approved extensions. Executable Lab solutions
-are not published in GitHub.
 
 ## Week 1
 
@@ -52,18 +46,11 @@ Unless the individual lab or Canvas states otherwise:
    number (for example, `Lab01_Jane_Smith.ipynb`).
 2. Enter your name and WSU AccessID in the dedicated **Student Information**
    Markdown cell.
-3. Complete every required checkpoint and written response. Guided examples
-   and optional challenges are not substitutes for required work.
-4. Add concise comments to code you write. Comments should explain purpose,
-   reasoning, assumptions, or units rather than repeat obvious syntax.
-5. When a figure is required, confirm that its axes include physical quantities
-   and units.
-6. Restart the runtime or kernel and run the notebook from top to bottom.
-7. Resolve all errors and verify that required outputs and figures are visible.
-8. Download the completed `.ipynb` file and export or print the completed
+3. Follow the notebook's tasks and submission checklist. Restart the runtime,
+   run all cells, and resolve errors before exporting.
+4. Download the completed `.ipynb` file and export or print the completed
    notebook as `Lab##_Firstname_Lastname.pdf`.
-9. Submit both files through Canvas using the filename and deadline specified
+5. Submit both files through Canvas using the filename and deadline specified
    in the notebook or Canvas assignment.
 
 A separate lab report is not required unless Canvas explicitly requests one.
-Do not submit coursework through GitHub.

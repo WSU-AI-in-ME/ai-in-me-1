@@ -55,7 +55,7 @@ to wear by cutter and cut. No inferred active-cut interval, filtering, clipping,
 resampling or sample replacement was applied. Sample SD uses `ddof=1`; RMS
 retains the mean; kurtosis is Pearson with `fisher=False, bias=True`. Equations,
 units, source identifiers and all 56 column roles are in the dictionary.
-Independent full builds reproduced the original table. The lower class boundary
+The lower class boundary
 was revised from 50 to 75 µm on September 22, 2026; 99 labels changed
 from 1 to 0. Sensor features and continuous wear values are unchanged.
 If you saved an earlier copy, download the current CSV before using `wear_level`
@@ -96,15 +96,5 @@ repository license.
 
 ## Reproducible processing
 
-The scalar feature definitions and transformations are documented in the
-[feature dictionary](DATA_DICTIONARY.md). Students use the supplied
-feature table; running the instructor's private curation utility is not required.
-The full raw corpus is not included. This feature table contains scalar features and wear labels/targets
-derived from the PHM 2010 challenge records, not the complete raw c1/c4/c6 signals.
-
-Users should consult the original source and applicable terms when obtaining or
-redistributing the underlying raw data.
-
-These wear levels are course-defined instructional categories and are not
-official PHM Society benchmark classes or universal industrial wear-severity
-limits.
+The [feature dictionary](DATA_DICTIONARY.md) documents scalar feature definitions,
+transformations and column roles. Use the supplied CSV for course activities.
