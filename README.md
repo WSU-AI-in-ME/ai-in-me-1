@@ -38,17 +38,6 @@ requirements, deadlines, grading, submissions, policies, and announcements.
 Practice is normally not submitted. Solutions are available for self-checking;
 try the problems before opening the solution.
 
-The indexes include PCA, K-means and normal-only sound anomaly detection.
-Practice uses synthetic examples; the sound Lab loads its documented MIMII
-feature table directly from this repository.
-
-Lab and Homework **Reference Solution** PDFs are provided through Canvas after
-the applicable submission deadline, including approved extensions. Executable
-Lab and Homework solution notebooks are not published here.
-
-Hidden evaluation materials, lecture sources, and the
-course syllabus are not distributed in this repository.
-
 ## Notebook and Code Expectations
 
 - Enter your name and WSU AccessID in the dedicated **Student Information**
