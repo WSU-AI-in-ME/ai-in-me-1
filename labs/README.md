@@ -36,6 +36,13 @@ are not published in GitHub.
 
 - [Lab 6: Model Validation and Generalization](week06/lab06_model_validation_and_generalization.ipynb)
 
+## Week 8
+
+- [Lab 7: Anomaly Detection with Manufacturing Sound](week08/lab07_normal_only_anomaly_detection.ipynb)
+
+  Normal-only PCA fitting, validation threshold selection and a frozen same-ID
+  MIMII evaluation. Four checkpoints; the feature table loads directly.
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:

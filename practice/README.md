@@ -81,3 +81,13 @@ on GitHub with copyable commands and screenshots.
   notice or choose topics to explore further. No submission is required.
 
   [Practice 7 self-check solution](week07/practice07_decision_trees_and_ensembles_solution.ipynb) — attempt the comparisons before reading.
+
+## Week 8: Unsupervised Learning and Anomaly Detection
+
+- **[Practice 8: PCA, Clustering, and Anomaly Detection Experiments](week08/practice08_pca_clustering_and_anomaly_detection.ipynb)**
+
+  Ten basic activities explore PCA, K-means and normal-only anomaly detection
+  with synthetic data. Four additional experiments are optional; no external
+  files or submission are required.
+
+  [Practice 8 self-check solution](week08/practice08_pca_clustering_and_anomaly_detection_solution.ipynb): attempt the comparisons before reading.

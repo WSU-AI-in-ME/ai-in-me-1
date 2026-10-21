@@ -105,6 +105,15 @@ only. Use machine/model ID separation when evaluating unseen-ID generalization.
 For normal-only anomaly-detection activities, keep anomalous recordings out of
 training. Do not infer a benchmark protocol from these task membership flags.
 
+## Lab 7 Derived Features
+
+[Lab 7 recording-level features](features/lab07/README.md) reuse the 70-recording
+fan `id_06` anomaly pool. The table adds 16 documented log band-power features
+and a fixed normal-only training/validation/test split for that activity.
+This activity-specific split does not assign partitions to the other course
+tasks or establish unseen-ID generalization. No raw-audio download is needed
+for Lab 7; its feature table retains source filenames and WAV checksums.
+
 ## Limitations
 
 This compact subset is intended for teaching. Results must not be interpreted
