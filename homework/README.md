@@ -31,3 +31,8 @@ Unless those instructions state otherwise:
    run all cells, and resolve errors before exporting.
 4. Export the PDF as `HW##_Firstname_Lastname.pdf` and submit both files
    through Canvas.
+
+
+## Homework 5
+
+[Neural Network Classification](hw05_neural_network_classification.ipynb).

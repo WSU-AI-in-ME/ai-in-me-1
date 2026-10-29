@@ -83,3 +83,10 @@ independent of the weekly Practice notebooks and are not prerequisites.
   files are required.
 
   [Practice 8 self-check solution](week08/practice08_pca_clustering_and_anomaly_detection_solution.ipynb): attempt the comparisons before reading.
+
+
+## Week 9 and Week 10
+
+[Practice 9](week09/practice09_sound_to_logmel.ipynb), [self-check](week09/practice09_sound_to_logmel_solution.ipynb).
+
+[Practice 10](week10/practice10_tensorflow_sound_classification.ipynb), [self-check](week10/practice10_tensorflow_sound_classification_solution.ipynb).

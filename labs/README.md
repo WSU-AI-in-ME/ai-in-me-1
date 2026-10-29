@@ -54,3 +54,10 @@ Unless the individual lab or Canvas states otherwise:
    in the notebook or Canvas assignment.
 
 A separate lab report is not required unless Canvas explicitly requests one.
+
+
+## Neural-network Labs
+
+[Lab 8](week09/lab08_neural_network_sound_classification.ipynb).
+
+[Lab 9](week10/lab09_training_and_validation.ipynb).

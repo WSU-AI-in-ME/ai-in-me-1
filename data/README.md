@@ -20,3 +20,8 @@ complete source datasets or their original benchmark definitions.
 The repository [MIT license](../LICENSE) covers course-authored software and
 documentation. It does not replace the licenses or terms associated with
 third-party datasets.
+
+
+## MIMII precomputed log-mel features
+
+[MIMII Log-Mel Teaching Dataset](mimii_logmel800/README.md): 800 normal recordings, 8000 one-second inputs and a fixed recording-level training/validation/test manifest for Lab 8/9, Practice 10 and Homework 5. The four-type classification task is course-derived. Features are supplied unstandardized; retain the documented CC BY-SA 4.0 attribution and terms.
