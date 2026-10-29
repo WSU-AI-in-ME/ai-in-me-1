@@ -2,4 +2,4 @@
 data/mimii/features/lab07/lab07_features.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
 
 # Preserve exact distributed metadata/reference bytes across platforms.
-data/mimii_logmel800/*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
+data/mimii_logmel800/* -text whitespace=trailing-space,space-before-tab,cr-at-eol
