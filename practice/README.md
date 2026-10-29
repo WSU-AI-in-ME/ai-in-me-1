@@ -50,6 +50,12 @@ independent of the weekly Practice notebooks and are not prerequisites.
 
   [Practice 3 Solution](week03/practice03_manufacturing_signals_and_feature_engineering_solution.ipynb): one possible approach, for self-checking after your attempt.
 
+## Week 4: Regression for Tool Wear Estimation and Prediction
+
+- **[Practice 4: Regression for Tool Wear Estimation and Prediction](week04/practice04_regression_experiments.ipynb)**
+
+  [Practice 4 self-check solution](week04/practice04_regression_experiments_solution.ipynb)
+
 ## Week 5: Classification and Model Performance Evaluation
 
 - **[Practice 5: Classification and Model Performance Evaluation](week05/practice05_classification_experiments.ipynb)**
@@ -84,9 +90,14 @@ independent of the weekly Practice notebooks and are not prerequisites.
 
   [Practice 8 self-check solution](week08/practice08_pca_clustering_and_anomaly_detection_solution.ipynb): attempt the comparisons before reading.
 
+## Week 9: Sound Preprocessing
 
-## Week 9 and Week 10
+- **[Practice 9: From Manufacturing Sound to Neural Network Inputs](week09/practice09_sound_to_logmel.ipynb)**
 
-[Practice 9](week09/practice09_sound_to_logmel.ipynb), [self-check](week09/practice09_sound_to_logmel_solution.ipynb).
+  [Practice 9 self-check solution](week09/practice09_sound_to_logmel_solution.ipynb)
 
-[Practice 10](week10/practice10_tensorflow_sound_classification.ipynb), [self-check](week10/practice10_tensorflow_sound_classification_solution.ipynb).
+## Week 10: TensorFlow
+
+- **[Practice 10: TensorFlow for Manufacturing Sound Classification](week10/practice10_tensorflow_sound_classification.ipynb)**
+
+  [Practice 10 self-check solution](week10/practice10_tensorflow_sound_classification_solution.ipynb)

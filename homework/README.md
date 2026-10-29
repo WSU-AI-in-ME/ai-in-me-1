@@ -18,6 +18,8 @@ notebooks. Check Canvas for deadlines, grading and submission requirements.
   Controlled tree/Random Forest comparison with c1 fitting, c4 validation
   selection and c6 evaluation.
 
+- [Homework 5: Neural Network Classification](hw05_neural_network_classification.ipynb)
+
 ## Submission Guidelines
 
 Always check the individual homework notebook and Canvas assignment first.
@@ -31,8 +33,3 @@ Unless those instructions state otherwise:
    run all cells, and resolve errors before exporting.
 4. Export the PDF as `HW##_Firstname_Lastname.pdf` and submit both files
    through Canvas.
-
-
-## Homework 5
-
-[Neural Network Classification](hw05_neural_network_classification.ipynb).

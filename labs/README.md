@@ -37,6 +37,14 @@ Use the [Lab Index](../Lab_index.ipynb) to open the current student notebooks.
   Normal-only PCA fitting, validation threshold selection and a frozen same-ID
   MIMII evaluation. Four checkpoints; the feature table loads directly.
 
+## Week 9
+
+- [Lab 8: Build a Neural Network for Manufacturing Sound](week09/lab08_neural_network_sound_classification.ipynb)
+
+## Week 10
+
+- [Lab 9: Compare Training and Validate a Sound Classifier](week10/lab09_training_and_validation.ipynb)
+
 ## Submission Guidelines
 
 Unless the individual lab or Canvas states otherwise:
@@ -54,10 +62,3 @@ Unless the individual lab or Canvas states otherwise:
    in the notebook or Canvas assignment.
 
 A separate lab report is not required unless Canvas explicitly requests one.
-
-
-## Neural-network Labs
-
-[Lab 8](week09/lab08_neural_network_sound_classification.ipynb).
-
-[Lab 9](week10/lab09_training_and_validation.ipynb).
