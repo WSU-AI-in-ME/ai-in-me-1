@@ -101,3 +101,11 @@ independent of the weekly Practice notebooks and are not prerequisites.
 - **[Practice 10: TensorFlow for Manufacturing Sound Classification](week10/practice10_tensorflow_sound_classification.ipynb)**
 
   [Practice 10 self-check solution](week10/practice10_tensorflow_sound_classification_solution.ipynb)
+
+## Week 12
+
+- **[Hyperparameter Tuning and Regularization](week12/practice12_hyperparameter_tuning_and_regularization.ipynb)**
+
+  Explore weight updates and dropout masks, then compare MIMII models using validation cross-entropy.
+
+  [Practice 12 self-check solution](week12/practice12_hyperparameter_tuning_and_regularization_solution.ipynb)
